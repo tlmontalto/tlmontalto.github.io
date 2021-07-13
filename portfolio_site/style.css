@@ -1,0 +1,325 @@
+HTML {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    font-family: "Comfortaa", monospace;
+    margin: 0;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+/* .container {
+    display: flex;
+} */
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    color: #b36500;
+}
+
+h3 {
+    color: #c49860;
+}
+
+p {
+    margin: 0;
+}
+
+.menu-toggle {
+    display: none;
+    /* position: relative; */
+    /* z-index: 2; */
+    /* right: 50%; */
+}
+
+/* Nav */
+
+.navbar {
+    position: fixed;
+    min-width: 100%;
+    z-index: 999;
+}
+
+/* .sidebar {
+    border: 1px solid purple;
+    background-color: #b36500;
+    color: black;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    padding: 2em 0;
+}
+.sidebar a:hover {
+    color: white;
+}
+
+.profile {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-details-small {
+    display: none;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 80%;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: column nowrap;
+    border-bottom: 1px solid black;
+}
+
+.nav-item-link {
+    padding: 1em;
+    border-top: 1px solid black;
+    color: black;
+}
+.nav-item-link:hover {
+    left: 10px;
+} */
+/* .profile-details {
+    font-size: 14px;
+} */
+.profile {
+    white-space: unset;
+}
+.profile-img {
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+
+/* MAIN */
+main {
+    position: absolute;
+    /* left: 20%; */
+    /* width: 80%; */
+    width: 100%;
+    /* min-height: 100vh; */
+    top: 10%;
+    bottom: 12%;
+    display: flex;
+    justify-content: center;
+}
+
+/* About */
+.about {
+    /* border: 1px solid pink; */
+    width: 50%;
+    flex-flow: column nowrap;
+    padding: 1em;
+    position: absolute;
+    /* top: 20%; */
+    left: 25%;
+    font-size: 2em;
+    color: #c49860;
+
+}
+
+/* Skills */
+.skills {
+    text-align: center;
+    /* border: 1px solid pink; */
+    width: 80%;
+    flex-flow: column nowrap;
+}
+
+.skills-img {
+    width: 5em;
+    background-color: white;
+    border-radius: 10%;
+    padding: .5em;
+    margin: .5em;
+    box-shadow: 0 5px 5px 0 #b36500;
+}
+
+.languages-box, .management-deployment-box, .databases-box {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+/* Projects */
+.projects {
+    flex-flow: column nowrap;
+    padding-bottom: 1em;
+    width: 80%;
+}
+
+.single-project {
+    margin-bottom: 3em;
+}
+
+.project-img {
+    width: 30em;
+    margin-bottom: 1em;
+}
+
+.project-text {
+    width: 40%;
+    position: relative;
+    left: 10%;
+}
+
+.project-link {
+    color: #c49860;
+}
+
+/* Blog */
+.blog {
+    flex-flow: column nowrap;
+    padding: 1em;
+}
+
+/* Resume */
+.resume {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    /* min-height: 100vh; */
+}
+
+.resume-img {
+    width: 850px;
+    height: 1100px;
+    text-align: center;
+}
+
+.resume-link {
+    margin: 1em;
+    bottom: 13%;
+    padding-bottom: 3em;
+}
+
+/* Contact */
+.contact {
+    flex-flow: column nowrap;
+    padding: 1em;
+}
+
+@media (max-width: 650px) {
+
+    .sidebar {
+        /* padding: 1em 0; */
+        /* display: flex; */
+        /* flex-flow: row nowrap; */
+        width: 100%;
+        /* height: 100%; */
+        position: fixed;
+        /* top: 0; */
+        padding: 0;
+        z-index: 2;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .profile {
+        /* display: flex; */
+        /* flex-flow: row nowrap; */
+        margin: .5em 0;
+
+    }
+
+    .profile-img {
+        width: 80%;
+        border-radius: 50%;
+        margin-bottom: 1em;
+    }
+
+    .profile-details {
+        font-size: 14px;
+        flex-flow: column wrap;
+    }
+
+    .nav-item-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: .5em;
+    }
+
+    main {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 15%;
+        bottom: 12%;
+    }
+
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        right: .5em;
+        cursor: pointer;
+        /* z-index: 999; */
+    }
+
+    .about {
+        width: 95%;
+        left: unset;
+        top: unset;
+        padding-bottom: 1.5em;
+        font-size: 24px;
+    }
+
+    .databases-box {
+        padding-bottom: 1em;
+    }
+
+    .project-img {
+        width: 95%;
+    }
+
+    .project-text {
+        width: 95%;
+        left: unset;
+    }
+
+    .resume-img {
+        width: 95%;
+        height: auto;
+    }
+}
+
+/* Footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    top: 90;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #212529;
+    padding: .25em;
+}
+
+.contact-logo {
+    font-size: 1.5em;
+}
