@@ -269,6 +269,10 @@ let player = [];
 let dealer = [];
 let score = 500;
 
+// for (let i = 1; i > dealer.length; i++) {
+//     dealer.topCard.img = 'https://cdn.pixabay.com/photo/2012/05/07/18/53/card-game-48983_1280.png'
+// }
+
 const start = () => {
     restart.style.display = `none`;
     result.innerText = ``;
