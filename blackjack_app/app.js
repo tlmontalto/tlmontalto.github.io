@@ -1,6 +1,6 @@
 // console.log("connected");
 
-const cardSet = [
+let cardSet = [
     {
         'card': `Ace`,
         'value': 11,
@@ -269,10 +269,6 @@ let player = [];
 let dealer = [];
 let score = 500;
 
-// for (let i = 1; i > dealer.length; i++) {
-//     dealer.topCard.img = 'https://cdn.pixabay.com/photo/2012/05/07/18/53/card-game-48983_1280.png'
-// }
-
 const start = () => {
     restart.style.display = `none`;
     result.innerText = ``;
@@ -282,7 +278,7 @@ const start = () => {
     resetPlayer();
     resetDealer();
     dealPlayer();
-    dealDealer();
+    dealFirstDealer();
     dealPlayer();
     dealDealer();
     showButtons();
@@ -302,7 +298,7 @@ const dealBtn = () => {
     resetPlayer();
     resetDealer();
     dealPlayer();
-    dealDealer();
+    dealFirstDealer();
     dealPlayer();
     dealDealer();
     showButtons();
@@ -328,6 +324,18 @@ const dealDealer = () => {
     const cardImg = document.createElement('img');
     cardImg.setAttribute(`class`, `cardImg`);
     cardImg.src = topCard.img;
+    dealerHand.appendChild(cardImg);
+
+    aces(dealer);
+}
+
+const dealFirstDealer = () => {
+    let topCard = cardCopy.shift();
+    dealer.push(topCard);
+    const dealerHand = document.querySelector(`.dealer-hand`);
+    const cardImg = document.createElement('img');
+    cardImg.setAttribute(`class`, `cardImg`);
+    cardImg.src = 'https://cdn.pixabay.com/photo/2012/05/07/18/53/card-game-48983_1280.png';
     dealerHand.appendChild(cardImg);
 
     aces(dealer);
