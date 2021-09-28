@@ -4,6 +4,30 @@
     max-width: 100vw;
 }
 
+header {
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+}
+
+main {
+    position: absolute;
+    top: 10%;
+}
+
 section {
-    min-height: 100vh;
+    min-height: 90vh;
+}
+
+/* ABOUT */
+.about {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.about img{
+    width: 250px;
+    border-radius: 50%;
 }
