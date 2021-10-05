@@ -16,7 +16,8 @@ main {
 }
 
 section {
-    min-height: 90vh;
+    min-height: 100vh;
+    padding-top: 10vh;
 }
 
 /* ABOUT */
@@ -27,7 +28,24 @@ section {
     justify-content: center;
 }
 
-.about img{
+.about img {
     width: 250px;
     border-radius: 50%;
+}
+
+/* PROJECTS */
+
+.project-img {
+    width: 50vw;
+}
+
+/* RESUME */
+.resume {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.resume-img {
+    width: 70vw;
 }
