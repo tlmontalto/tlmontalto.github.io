@@ -1,0 +1,16 @@
+- name: Blackjack
+  image: assets/images/Blackjack_app.png
+  link: https://github.com/tlmontalto/tlmontalto.github.io/tree/main/blackjack_app
+  description: Blackjack game single-page application with standard casino rules.
+- name: Filament Catalog
+  link: https://github.com/tlmontalto/printercatalog
+  image: assets/images/Filament_Catalog.png
+  description: Multi-page log book for 3D printer filaments, allows for saving of settings that are specific to each filament, saving time, money, plastic, and the earth.
+- name: Task Tracker
+  link: https://github.com/tlmontalto/ga_project3_frontend
+  image: assets/images/Project_tracker2.png
+  description: Full stack application used for tracking tasks, allows the user to input a due date, as well as subtasks for each main task, great for outlining future projects.
+- name: Print Shop
+  link: https://github.com/tlmontalto/hm_print_shop_frontend
+  image: assets/images/HM_Print_Shop.png
+  description: Full stack ecommerce style website. The goal is to allow users to upload their own designs which can be ordered by customers, then printed and shipped by the store operator.

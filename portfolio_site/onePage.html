@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./onePage.css">
+    <title>Tamir Montalto</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <div class="profile navbar-brand d-flex align-items-center">
+                <div class="profile-details d-flex flex-wrap">
+                    <p class="mx-3">Tamir Montalto</p>
+                    <p class="mx-3">Software Engineer</p>
+                </div>
+            </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end w-100">
+                  <li class="nav-item">
+                    <a class="nav-link active d-flex align-items-center" aria-current="page" href="#about">
+                        <i class='bx bxs-home bx-fw'></i>
+                        <span class="nav-item-name">Home</span>
+                    </a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="./html/skills.html">
+                        <i class='bx bxs-magic-wand bx-fw'></i>
+                        <span class="nav-item-name">Skills</span>
+                    </a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="#projects">
+                        <i class='bx bx-library bx-fw'></i>
+                        <span class="nav-item-name">Projects</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="#resume">
+                        <i class='bx bx-notepad bx-fw'></i>
+                        <span class="nav-item-name">Resume</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="about" id="about">
+            <img class="profile-img" src="./images/professional_profile_headshot.jpg">
+            <h2>Hi, my name is Tamir, I'm a full-stack software engineer who is passionate about intuitive user experience, data privacy, and dark mode.</h2>
+        </section>
+
+        <section class="projects" id="projects">
+            <h1 class="text-center">Projects</h1>
+        </br>
+            
+            <h3 class="text-center">Blackjack</h3>
+        </br>
+            <div class="single-project d-flex flex-wrap">
+                <img class="project-img" src="./images/Blackjack_app.png">
+                <div class="project-text d-flex flex-column justify-content-center">
+                    <p>Blackjack game single-page application with standard casino rules.</p>
+                    <p>Technologies Used: HTML, CSS, JavaScript</p>
+                    <a class="project-link" href="https://tlmontalto.github.io/blackjack_app/" target="_blank">Link to Project</a>
+                </div>
+            </div>
+
+            <h3 class="text-center">Filament Catalog</h3>
+        </br>
+            <div class="single-project d-flex flex-wrap">
+                <img class="project-img" src="./images/Filament_Catalog.png">
+                <div class="project-text d-flex flex-column justify-content-center">
+                    <p>Multi-page log book for 3D printer filaments, allows me to save certain settings that are specific to each filament, so that I don’t have to run tests to find the perfect settings every time I want to use them. Saves a little bit of time, money, plastic, and the earth.</p>
+                    <p>Technologies Used: Node.js, Mongoose, Express, EJS</p>
+                    <a class="project-link" href="https://printer-catalog.herokuapp.com/" target="_blank">Link to Project</a>
+                </div>
+            </div>
+
+            <h3 class="text-center">Task Tracker</h3>
+        </br>
+            <div class="single-project d-flex flex-wrap">
+                <img class="project-img" src="./images/Project_tracker2.png">
+                <div class="project-text d-flex flex-column justify-content-center">
+                    <p>Full stack application used for tracking tasks, allows the user to input a due date, as well as subtasks for each main task, great for outlining future projects.</p>
+                    <p>Technologies Used: Node.js, Mongoose, Express, EJS, React, Bootstrap, Heroku, Affirmations API</p>
+                    <a class="project-link" href="https://task-project3-frontend.herokuapp.com/" target="_blank">Link to Project</a>
+                </div>
+
+            </div>
+
+            <h3 class="text-center">HM Print Shop</h3>
+        </br>
+            <div class="single-project d-flex flex-wrap">
+                <img class="project-img" src="./images/HM_Print_Shop.png">
+                <div class="project-text d-flex flex-column justify-content-center">
+                    <p>Full stack ecommerce style website. The goal is to allow users to upload their own designs which can be ordered by customers, then printed and shipped by the store operator.</p>
+                    <p>Technologies Used: ReactJS (React Router, React Context, React Cookies), Bootstrap, Axios, Python, Flask.</p>
+                    <a class="project-link" href="https://hm-print-shop.herokuapp.com/" target="_blank">Link to Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume" id="resume">
+            <h1>My Resume</h1>
+            <img class="resume-img" src="./images/TMontalto SE Resume.png" alt="Tamir's Resume">
+
+            <a class="resume-link" href="https://docs.google.com/document/d/1rzNvgfuTMHiZ8Zl3Ilv1ARfxSpMwxQEc2hOu8x42ZLo/edit?usp=sharing" target="_blank">Print/Download Resume</a>
+        </section>
+    </main>
+</body>
+</html>

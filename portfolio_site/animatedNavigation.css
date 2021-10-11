@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+nav {
+    min-height: 10vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+nav h1,
+nav ul {
+    font-size: 1.5rem;
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    background-color: #b92828;
+}
+.skills {
+    background-color: #59b111;
+}
+.projects {
+    background-color: #4351d3;
+}
+.resume {
+    background-color: #e9ec2b;
+}
+
+.bubble {
+    position: absolute;
+    z-index: -2;
+    background-color: #d17907;
+    transform: scale(2);
+    transition: all 0.5s ease
+}
