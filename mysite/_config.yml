@@ -9,7 +9,7 @@ baseurl:
 # Title of the Site
 title: Tamir Montalto
 # Description of the Site
-description: Full-Stack Software Engineer
+description: Software Engineer
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
@@ -29,10 +29,10 @@ instagram_username:
 linkedin_username: tmontalto
 github_username:  tlmontalto
 youtube_channel_id:
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+reddit_username:
+behance_username:
+dribbble_username:
+spotify_username:
 
 # Google Analytics
 google-analytics: UA-163806439-1
