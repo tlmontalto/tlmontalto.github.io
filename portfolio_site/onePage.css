@@ -12,12 +12,12 @@ header {
 
 main {
     position: absolute;
-    top: 10%;
+    /* top: 10%; */
 }
 
 section {
     min-height: 100vh;
-    padding-top: 10vh;
+    /* padding-top: 10vh; */
 }
 
 /* ABOUT */

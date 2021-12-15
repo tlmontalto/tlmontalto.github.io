@@ -2,10 +2,10 @@ const sections = document.querySelectorAll('section')
 const bubble = document.querySelector('.bubble')
 
 const colors = [
-    "#b92828",
-    "#59b111",
-    "#4351d3",
-    "#e9ec2b"
+    "#fda766",
+    "#fd9346",
+    "#fd7f2c",
+    "#ff6200"
 ]
 
 const options = {
